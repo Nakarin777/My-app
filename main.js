@@ -60,4 +60,4 @@ function bmi(){
     var num2 = document.getElementById("num2").value;
     var sum = num1 / ((num2 / 100) ** 2);
     alert("BMI : " +sum.toFixed(2));
-}
+};
