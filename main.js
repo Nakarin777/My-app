@@ -55,3 +55,9 @@ function Calculate4(){
     var sum = parseInt(num1) / parseInt(num2);
     alert("SUM : " +sum);
 };
+function bmi(){
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+    var sum = num1 / ((num2 / 100) ** 2);
+    alert("BMI : " +sum.toFixed(2));
+}
